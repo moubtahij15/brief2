@@ -1,0 +1,45 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    }
+    body{
+        font-family: "Montserrat", sans-serif;
+        background-color: black;
+    }
+
+header.menu {
+    background: wheat;
+    
+    margin: 2em;
+    padding: .2em;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        font-size: 1.1em;
+        img {
+            width: 70px;
+            height: 60px;
+        }
+        .ul1 {
+            margin-left: 10em;
+            display: flex;
+            place-content: space-between;
+            li{
+                padding-left: 1.1em;
+            }
+        }
+        .ul2 {
+            margin-left: 1em;
+            display: flex;
+            place-content: space-between;
+            li{
+                padding-left: 1.1em;
+            }
+        }   
+        }
+        
+    }
+}

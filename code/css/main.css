@@ -1,0 +1,65 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+}
+
+header.menu {
+  background: wheat;
+  margin: 2em;
+  padding: .2em;
+}
+
+header.menu .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+header.menu .container img {
+  width: 70px;
+  height: 60px;
+}
+
+header.menu .container .ul1 {
+  margin-left: 10em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+header.menu .container .ul1 li {
+  padding-left: 1.1em;
+}
+
+header.menu .container .ul2 {
+  margin-left: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+header.menu .container .ul2 li {
+  padding-left: 1.1em;
+}
+
+header.menu .container li {
+  list-style: none;
+}
+
+header.menu .container li a {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */
